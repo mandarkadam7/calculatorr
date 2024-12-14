@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>calculator-2</title>
+    <style>
+        .body{
+            height: 580px;
+            width: 400px;
+            background-color: darkslategray;
+            border-radius: 15px;
+            
+            position: fixed;
+            top: 15px;
+            left: 400px;
+            box-shadow: 2px 2px 10px 10px lightpink;
+        }
+        .screen{
+            height: 80px;
+            width: 330px;
+            background-color:  lightgreen;
+            border-radius: 5px;
+            border-style: solid;
+            margin-left: 8px;
+            margin-top: 45px;
+            font-size: 85px;
+            text-align: right;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            
+            padding: 5px;
+        }
+        .table{
+            margin-left: 11px;
+            margin-top: 49px;
+
+        }
+        .buttons{
+            font-weight: 700;
+            height: 80px;
+            width: 72px;
+            border-radius: 50px;
+            background-color: aqua;
+            border-style: solid ;
+            border-color: black;
+            border-width: 3px;
+            text-align: center;
+            font-size: 50px;
+        }
+        .buttons:hover
+        {
+            transition: 0.5;
+            color: blueviolet;
+        }
+        .red{
+            background-color: rgb(231, 73, 73);
+            color: aliceblue;
+        }
+       
+    </style>
+</head>
+<body>
+    <center>
+    
+    <div class="body">
+        <div class="screen">0</div>
+        <table class="table">
+            <tr>
+                <td class="buttons">7</td>
+                <td class="buttons">8</td>
+                <td class="buttons">9</td>
+                <td class="buttons">+</td>
+             </tr>
+             <tr>
+                <td class="buttons">4</td>
+                <td class="buttons">5</td>
+                <td class="buttons">6</td>
+                <td class="buttons">-</td>
+             </tr>
+             <tr>
+                <td class="buttons">1</td>
+                <td class="buttons">2</td>
+                <td class="buttons">3</td>
+                <td class="buttons">/</td>
+             </tr>
+             <tr>
+                <td class="buttons">0</td>
+                <td class="buttons">.</td>
+                <td class="buttons">c</td>
+                <td class="buttons red">=</td>
+             </tr>
+        </table>
+    </div>
+    </center>
+    
+</body>
+</html>
